@@ -1,0 +1,25 @@
+package teste123;
+
+import java.util.Scanner;
+
+public class Exer {
+public static void main(String args[]) {
+		
+		Scanner ler = new Scanner(System.in);
+		boolean x;
+		
+		System.out.print("Entre com um valor:  ");
+		x = ler.nextInt();
+		
+			for( x=1000  "x" <= 1999 x++);
+	    {
+	    	    
+	    	   if (x%11  == 5);{
+	    	   System.out.ptint("--> %d / 11 tem como resto 5\n",x);
+	    }
+	    }
+		
+
+}
+
+}

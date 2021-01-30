@@ -1,0 +1,29 @@
+package Pacotejava;
+
+import java.util.Scanner;
+
+public class Exe3 {
+
+	public static void main(String[] arg) {
+		Scanner ler = new Scanner (System.in);
+		int segundo = 0,minutos,horas,seg;
+		
+			System.out.println("Digite a duração do evento em segundos: ");
+			
+			horas = ler.nextInt();
+			horas = (segundo /3600);
+			System.out.println("Horas: " + horas);
+			
+			minutos = ((segundo%3600)/ 60);
+			System.out.println("Minutos: " + minutos);
+			
+			seg = ((segundo%3600) % 60);
+			
+			System.out.println("segundos: " + seg);
+			
+			
+			
+		
+	}
+
+}

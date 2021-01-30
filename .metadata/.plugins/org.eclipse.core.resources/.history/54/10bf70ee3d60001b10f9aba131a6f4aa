@@ -1,0 +1,25 @@
+package Pacotejava;
+
+import java.util.Scanner;
+
+public class Exercício8 {
+	public static void main(String[] arg) {
+		
+		Scanner ler = new Scanner (System.in);
+		
+		double fabrica, consumo = 0, distribuidor=0, valorTotal;
+		System.out.println("Digite o valor da fabrica: ");
+		fabrica = ler.nextInt();
+		
+		 distribuidor = fabrica * 0.28 + fabrica * 0.48;
+		 
+		 distribuidor = Math.sqrt(consumo + 2);
+		 
+		 valorTotal = fabrica+consumo+distribuidor;
+		 
+		 System.out.println("\nO melhor valor que temos para o senhor(a) é: " + "R$" + valorTotal);
+		 
+		 
+	}
+
+}
